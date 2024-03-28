@@ -1,0 +1,52 @@
+* {
+      text-decoration: none;
+    }
+    body {
+      background-color: black;
+      font-family: "Poppins", Sans-Serif;
+    }
+    * .navbar {
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      position: fixed;
+      align-items: center;
+      padding: 1.4rem 7%;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,255,255,0.517);
+    }
+    .navbar a {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .navbar #logo {
+      font-size: 2.9rem;
+      color: white;
+      font-style: italic;
+      font-weight: bold;
+    }
+    .navbar #logo span {
+      color: aqua;
+    }
+    .navbar .navext a {
+      margin: 0.9rem;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-style: italic;
+    }
+    .navbar .ext #menu {
+      display: none;
+    }
+    .navbar .ext a {
+      margin: 0.9rem;
+      color: #fff;
+    }
+    /* jika di tekan  */
+    .navbar .navext a:hover {
+      color: aqua;
+    }
+    .navbar .ext a:hover {
+      color: aqua;
+    }
